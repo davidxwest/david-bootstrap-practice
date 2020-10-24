@@ -10,3 +10,35 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+
+.nav {
+  a:hover {
+    text-decoration: underline;
+    color: black;
+    }
+  }
+
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    border-top: 1px;
+ }
+
+ .jumbotron {
+   background: url(../img/pirate-ship.jpg) no-repeat center;
+   background-size: cover;
+   font-family: 'Dancing Script';
+ }
+
+ h3 {
+   font-family: 'Dancing Script';
+ }
+
+.card-text {
+  font-style: 'Times';
+}
